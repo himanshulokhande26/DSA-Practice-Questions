@@ -1,3 +1,4 @@
+// Seperate even and odd element into two array
 import java.util.Arrays;
 import java.util.Scanner;
 

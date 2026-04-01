@@ -1,4 +1,3 @@
-
 // Find the max  & min of the array
 import java.util.*;
 

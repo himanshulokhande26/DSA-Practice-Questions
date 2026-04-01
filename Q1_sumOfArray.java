@@ -1,3 +1,4 @@
+// Find sum of all elements in an array
 import java.util.*;
 
 public class Q1_sumOfArray {

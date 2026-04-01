@@ -1,3 +1,4 @@
+// Count number of even and odd element in an array
 import java.util.Scanner;
 
 public class Q8_CountEvenOdd {

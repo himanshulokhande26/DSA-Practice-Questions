@@ -1,4 +1,3 @@
-
 // Linear Search
 import java.util.*;
 
