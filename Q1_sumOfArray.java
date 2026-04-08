@@ -14,5 +14,6 @@ public class Q1_sumOfArray {
             sum += arr[i];
         }
         System.out.println(sum);
+        sc.close();
     }
 }

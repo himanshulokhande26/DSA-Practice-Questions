@@ -21,5 +21,6 @@ public class Q15_LeftShift {
         arr[n - 1] = first;
 
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }
 }

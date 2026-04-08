@@ -9,6 +9,7 @@ public class Q16_RightShift {
         int n = sc.nextInt();
         if (n <= 0) {
             System.out.println("Array size cannot be 0 or negative.");
+            sc.close();
             return;
         }
         int[] arr = new int[n];
@@ -22,5 +23,6 @@ public class Q16_RightShift {
         }
         arr[0] = last;
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }
 }

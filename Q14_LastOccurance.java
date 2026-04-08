@@ -28,5 +28,6 @@ public class Q14_LastOccurance {
         } else {
             System.out.println("Element is not present in the array");
         }
+        sc.close();
     }
 }

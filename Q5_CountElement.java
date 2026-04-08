@@ -22,6 +22,7 @@ public class Q5_CountElement {
             }
         }
         System.out.println(count);
+        sc.close();
 
     }
 }

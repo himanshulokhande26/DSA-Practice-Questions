@@ -21,6 +21,6 @@ public class Q8_CountEvenOdd {
             }
         }
         System.out.println("Even count = " + countEven + " and Odd count = " + countOdd);
-
+        sc.close();
     }
 }

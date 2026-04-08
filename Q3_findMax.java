@@ -12,6 +12,7 @@ public class Q3_findMax {
         }
         Arrays.sort(arr);
         System.out.println("Min element is " + arr[0] + " and max element is " + arr[n - 1]);
+        sc.close();
 
     }
 }

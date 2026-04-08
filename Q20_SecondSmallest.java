@@ -11,6 +11,7 @@ public class Q20_SecondSmallest {
 
         if (n < 2) {
             System.out.println("Second smallest not possible");
+            sc.close();
             return;
         }
 
@@ -39,5 +40,6 @@ public class Q20_SecondSmallest {
         } else {
             System.out.println("Second smallest = " + second_smallest);
         }
+        sc.close();
     }
 }

@@ -26,6 +26,7 @@ public class Q21_RemoveDuplicate {
             }
         }
         System.out.println(Arrays.toString(Arrays.copyOf(arr, j + 1)));
+        sc.close();
     }
 }
 

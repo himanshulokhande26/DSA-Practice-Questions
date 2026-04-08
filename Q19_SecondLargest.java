@@ -10,6 +10,7 @@ public class Q19_SecondLargest {
 
         if (n < 2) {
             System.out.println("Second largest not possible");
+            sc.close();
             return;
         }
 
@@ -38,5 +39,6 @@ public class Q19_SecondLargest {
         } else {
             System.out.println("Second largest = " + second_largest);
         }
+        sc.close();
     }
 }

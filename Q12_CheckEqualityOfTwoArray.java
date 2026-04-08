@@ -20,5 +20,6 @@ public class Q12_CheckEqualityOfTwoArray {
             arr2[i] = sc.nextInt();
         }
         System.out.println(Arrays.equals(arr1, arr2));
+        sc.close();
     }
 }

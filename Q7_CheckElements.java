@@ -29,6 +29,7 @@ public class Q7_CheckElements {
         } else {
             System.out.println("Element does not found");
         }
+        sc.close();
 
     }
 }

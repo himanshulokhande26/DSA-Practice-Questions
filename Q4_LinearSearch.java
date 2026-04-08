@@ -28,6 +28,7 @@ public class Q4_LinearSearch {
         } else {
             System.out.println("Element does not found");
         }
+        sc.close();
 
     }
 }

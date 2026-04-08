@@ -24,6 +24,7 @@ public class Q6_ReplaceOccurance {
             }
         }
         System.out.println(Arrays.toString(arr));
+        sc.close();
 
     }
 }

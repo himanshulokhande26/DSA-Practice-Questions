@@ -1,3 +1,4 @@
+
 // Find the average of all elements in an array
 import java.util.*;
 
@@ -13,7 +14,8 @@ public class Q2_AverageOfArray {
         for (int i = 0; i < n; i++) {
             sum += arr[i];
         }
-	int avg = sum / n;
+        int avg = sum / n;
         System.out.println(avg);
+        sc.close();
     }
 }

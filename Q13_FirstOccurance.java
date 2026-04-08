@@ -33,6 +33,7 @@ public class Q13_FirstOccurance {
         } else {
             System.out.println("Element is not in the array");
         }
+        sc.close();
 
     }
 }
