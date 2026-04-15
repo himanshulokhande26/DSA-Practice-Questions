@@ -1,8 +1,6 @@
-
-// Q22 - Count the frequency of each element
 import java.util.*;
 
-public class Q22_CountFrequency {
+public class Q17_AscendingSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,11 +19,8 @@ public class Q22_CountFrequency {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        HashMap<Integer, Integer> frequency = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            frequency.put(arr[i], frequency.getOrDefault(arr[i], 0) + 1);
-        }
-        System.out.println(frequency);
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
         sc.close();
     }
 }

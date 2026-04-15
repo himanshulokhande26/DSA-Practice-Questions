@@ -1,8 +1,7 @@
-
-// Q22 - Count the frequency of each element
+// Q23 - Reverse an array in place without using extra space.
 import java.util.*;
 
-public class Q22_CountFrequency {
+public class Q23_ReverseArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,11 +20,23 @@ public class Q22_CountFrequency {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        HashMap<Integer, Integer> frequency = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            frequency.put(arr[i], frequency.getOrDefault(arr[i], 0) + 1);
-        }
-        System.out.println(frequency);
+
+        reverseArray(arr);
         sc.close();
+
+    }
+
+    static void reverseArray(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+        System.out.println(Arrays.toString(arr));
+
     }
 }
