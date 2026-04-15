@@ -1,5 +1,5 @@
 The Repo contains all the solution of Practice Questions given by Hemant sir from Q1 to Q45.
-
+<br>
 Q1  → Linear search
 Q2  → Min/Max
 Q3  → Reverse array
