@@ -1,5 +1,5 @@
 
-// Remove duplicate from an array
+// Remove duplicate from an array done with two pointer 
 
 //Solution 1: Time complexity - O(n log n)
 import java.util.*;
@@ -49,13 +49,13 @@ public class Q21_RemoveDuplicate {
 
 // HashSet<Integer> set = new HashSet<>();
 
-// // Add elements to set
+// Add elements to set
 // for (int i = 0; i < n; i++) {
 // set.add(arr[i]); **HashMap only contain unique value it by default ignore
 // dulpicate value**
 // }
 
-// // Print unique elements
+// Print unique elements
 // System.out.println("Array after removing duplicates:");
 // System.out.println(set);
 // }
