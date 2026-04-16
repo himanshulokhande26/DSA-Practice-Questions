@@ -1,3 +1,4 @@
+// Find the difference between the largest and smallest element
 import java.util.*;
 
 public class Q31_DifferenceMaxMin {

@@ -1,3 +1,4 @@
+// Rotate an Array to right by K positions 
 import java.util.*;
 
 public class Q24_RotateArrayRight {

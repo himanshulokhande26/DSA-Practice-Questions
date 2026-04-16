@@ -1,3 +1,4 @@
+// Rotate the array to left by K positions 
 import java.util.*;
 
 public class Q25_RotateArrayLeft {

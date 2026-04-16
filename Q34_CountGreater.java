@@ -1,3 +1,4 @@
+// Count the number of element greater than a given number.
 import java.util.*;
 
 public class Q34_CountGreater {

@@ -1,3 +1,4 @@
+// Find all the pair of element whose sum is equal to a given number
 import java.util.*;
 
 public class Q32_PairSum {

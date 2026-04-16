@@ -1,3 +1,4 @@
+// Replace all zeros with ones 
 import java.util.*;
 
 public class Q30_ReplaceZero {

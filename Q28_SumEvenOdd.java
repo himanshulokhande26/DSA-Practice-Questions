@@ -1,3 +1,4 @@
+// Find the some of even and odd element seperately 
 import java.util.*;
 
 public class Q28_SumEvenOdd {
